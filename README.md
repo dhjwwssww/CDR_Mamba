@@ -28,7 +28,7 @@ This repository contains the code for the paper "CDRMamba: A Framework for Autom
 
 Please ensure you have the following dependencies installed:
 
-- Python 3.6+
+- Python 3.8
 - PyTorch
 - tqdm
 - SimpleITK
@@ -38,27 +38,21 @@ You can set up the conda environment using the `requirements.txt` file:
 ```bash
 conda create --name myenv --file requirements.txt
 conda activate myenv
-bash```
+```
 
 
-## Dependencies
-
-Please ensure you have the following dependencies installed:
-
-- Python 3.6+
-- PyTorch
-- tqdm
-- SimpleITK
-- numpy
-You can set up the conda environment using the `requirements.txt` file:
-
+## Train and test
+You can train the model using the following command:
 ```bash
-conda create --name myenv --file requirements.txt
-conda activate myenv
-bash```
+python train.py
+```
 
+Test command:
+```bash
+python test.py
+```
 
-### Configuration
+## Configuration
 
 You can set the training parameters such as learning rate, batch size, etc., in the [`config.py`](vscode-file://vscode-app/d:/Users/%E6%9B%BE%E5%AE%BD%E4%B8%80/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) file.
 
