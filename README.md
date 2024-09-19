@@ -38,7 +38,7 @@ You can set up the conda environment using the `requirements.txt` file:
 ```bash
 conda create --name myenv --file requirements.txt
 conda activate myenv
-bash```
+
 
 
 ## Train and test
