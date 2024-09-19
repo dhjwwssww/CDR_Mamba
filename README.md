@@ -2,7 +2,6 @@
 This repository contains the code for the paper "CDRMamba: A Framework for Automated CranioMaxilloFacial Defect Reconstruction Using Mamba-Based Modeling".
 ## Directory Structure
 
-
 ```
 .
 ├── config.py
@@ -14,6 +13,7 @@ This repository contains the code for the paper "CDRMamba: A Framework for Autom
 │   ├── __init__.py
 │   ├── CDRMamba.py
 │   └── TSSMamba.py
+├── requirements.txt
 ├── train.py
 ├── test.py
 └── utils
@@ -41,17 +41,13 @@ conda activate myenv
 bash```
 
 
-## Usage
-### Training the Model
-
+## Train and test
 You can train the model using the following command:
-
 ```bash
 python train.py
 ```
 
 Test command:
-
 ```bash
 python test.py
 ```
