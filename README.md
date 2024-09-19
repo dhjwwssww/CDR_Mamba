@@ -41,15 +41,20 @@ conda activate myenv
 bash```
 
 
-## Train and test
-You can train the model using the following command:
-```bash
-python train.py
-bash```
+## Dependencies
 
-Test command:
+Please ensure you have the following dependencies installed:
+
+- Python 3.6+
+- PyTorch
+- tqdm
+- SimpleITK
+- numpy
+You can set up the conda environment using the `requirements.txt` file:
+
 ```bash
-python test.py
+conda create --name myenv --file requirements.txt
+conda activate myenv
 bash```
 
 
