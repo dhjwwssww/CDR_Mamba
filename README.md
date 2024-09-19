@@ -40,8 +40,8 @@ conda create --name myenv --file requirements.txt
 conda activate myenv
 bash```
 
-## Usage
 
+## Usage
 ### Training the Model
 
 You can train the model using the following command:
