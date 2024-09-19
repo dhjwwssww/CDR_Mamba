@@ -45,11 +45,13 @@ bash```
 ### Training the Model
 
 You can train the model using the following command:
+
 ```bash
 python train.py
 ```
 
 Test command:
+
 ```bash
 python test.py
 ```
